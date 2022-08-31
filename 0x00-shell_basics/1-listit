@@ -1,2 +1,2 @@
 #!/bin/bash
-ls –l $(dirname $(readlink -f ${BASH_SOURCE[0]}))
+ls –l $(pwd)
